@@ -1,6 +1,6 @@
 export const SITE = {
 	title: 'Documentation',
-	description: 'Your website description.',
+	description: 'Documentation and User Guides for Viewpoint. The content matchmaker.',
 	defaultLanguage: 'en-us',
 } as const;
 
@@ -11,7 +11,7 @@ export const OPEN_GRAPH = {
 			'astro logo on a starry expanse of space,' +
 			' with a purple saturn-like planet floating in the right foreground',
 	},
-	twitter: 'astrodotbuild',
+	twitter: 'viewpointcomms',
 };
 
 export const KNOWN_LANGUAGES = {
@@ -19,15 +19,15 @@ export const KNOWN_LANGUAGES = {
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
-export const GITHUB_EDIT_URL = `https://github.com/withastro/astro/tree/main/examples/docs`;
+export const GITHUB_EDIT_URL = `https://github.com/ViewpointComms/viewpoint-docs/tree/main/docs`;
 
 export const COMMUNITY_INVITE_URL = `https://astro.build/chat`;
 
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {
-	indexName: 'XXXXXXXXXX',
-	appId: 'XXXXXXXXXX',
-	apiKey: 'XXXXXXXXXX',
+	indexName: 'Viewpoint Documentation',
+	appId: 'DDZS8F74DY',
+	apiKey: '5692f681f6b6fa53988ed42b041f9c7a',
 };
 
 export type Sidebar = Record<
@@ -36,10 +36,10 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
 	en: {
-		'Section Header': [
+		'Introduction': [
 			{ text: 'Introduction', link: 'en/introduction' },
-			{ text: 'Page 2', link: 'en/page-2' },
-			{ text: 'Page 3', link: 'en/page-3' },
+			{ text: 'What is Viewpoint', link: 'en/what-is-viewpoint' },
+			{ text: 'How does it work', link: 'en/how-does-it-work' },
 		],
 		'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
 	},
