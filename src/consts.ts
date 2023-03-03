@@ -19,7 +19,7 @@ export const KNOWN_LANGUAGES = {
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
-export const GITHUB_EDIT_URL = `https://github.com/ViewpointComms/viewpoint-docs/tree/main/docs`;
+export const GITHUB_EDIT_URL = `https://github.com/tom-hirst/viewpoint-docs/tree/main`;
 
 export const COMMUNITY_INVITE_URL = `https://astro.build/chat`;
 
@@ -37,10 +37,17 @@ export type Sidebar = Record<
 export const SIDEBAR: Sidebar = {
 	en: {
 		'Introduction': [
-			{ text: 'Introduction', link: 'en/introduction' },
-			{ text: 'What is Viewpoint', link: 'en/what-is-viewpoint' },
-			{ text: 'How does it work', link: 'en/how-does-it-work' },
+			{ text: 'Introduction', link: 'en/introduction/introduction' },
+			{ text: 'What is Viewpoint', link: 'en/introduction/what-is-viewpoint' },
+			{ text: 'How does it work', link: 'en/introduction/how-does-it-work' },
 		],
-		'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
+		'Content': [
+			{ text: 'Create', link: 'en/content/create' },
+			{ text: 'Curate', link: 'en/content/curate' },
+			{ text: 'Aggregate', link: 'en/content/aggregate' },
+			{ text: 'Tagging', link: 'en/content/tagging' },
+			{ text: 'Scheduling', link: 'en/content/scheduling' },
+			{ text: 'Approving', link: 'en/content/approval' }
+		],
 	},
 };
