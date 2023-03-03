@@ -1,0 +1,36 @@
+---
+title: "Scheduling"
+description: "How to schedule content in Viewpoint"
+---
+
+Viewpoint will allow you to schedule content to appear during a specific window of time. This is particularly useful for embargoed or time sensitive content such as events.
+
+## Available From
+
+Using the 'Available from date' option will allow you to publish content now, but it will remain hidden until the date and time you specify.
+
+1. [Create](create) or [Curate](curate) your content as you would normally without clicking `Submit for Approval` / `Publish Button`
+2. Click the clock icon to the right of the `Submit for Approval` / `Publish Button`
+
+![Schedule Popup](/assets/content/schedule-modal.png)
+
+3. Select the date you would like the content to be available from
+4. Click `Submit for Approval` / `Publish` 
+
+## Expiry
+
+Using the 'Expiry date' option will allow you to publish content now, and it will be automatically hidden from the date and time you specify.
+
+1. [Create](create) or [Curate](curate) your content as you would normally without clicking `Submit for Approval` / `Publish Button`
+2. Click the clock icon to the right of the `Submit for Approval` / `Publish Button`
+
+![Schedule Popup](/assets/content/schedule-modal.png)
+
+3. Check the `Set Expiry Date` box
+4. Select the date you would like the content to expire
+5. Click `Submit for Approval` / `Publish`
+
+## Further Information
+
+- The 'Available from' and 'Expiry' dates can be used in conjunction with one another or independently
+- If an article has an `Available from` date, but is not approved it will remain hidden until it is approved.

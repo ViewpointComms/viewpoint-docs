@@ -1,0 +1,31 @@
+---
+title: "Approving"
+description: "How to approve content"
+---
+
+The `Create` function allows you to create and publish original content with an easy to use WYSIWYG editor.
+
+## Approving Content
+
+1. Go to the Admin Menu
+2. Click Content > Content to Approve - You will then see a list of all articles awaiting approval
+
+![Content to Approve](/assets/content/approval-list.png)
+
+3. Click the pencil icon on the content you want to approve
+4. Review the article and ensure you are happy with the chosen content, tags and options
+![Review Article](/assets/content/review-article.png)
+
+## Publishing
+
+6. Mark the article as approved
+7. Click 'Publish'
+
+## Further Information
+
+- Some fields displayed in your instance of Viewpoint may differ from the screenshots above as some fields are configuration specific
+- Some fields such as `Approved` are restricted to certain user types
+- When approved, content will be published immediately, and notifications will be sent as per users preferences
+
+
+
