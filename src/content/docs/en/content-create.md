@@ -35,7 +35,7 @@ The `Create` function allows you to create and publish original content with an 
 - `Newsletter` - If enabled, This will add the content to the next Weekly Newsletter *Remember, the newsletter only contains the 8 most recent pieces of content that are 'Newsletter' enabled*
 - `Approved` - If an article is marked as approved it will be published immediately, if not an emaill will be sent to your content approvers
 
-8. Once complete, click `Publish` or `Submit for Approval` - *This option will vary dependant on whether the article has been approved*
+8. Once complete, click `Publish` or `Submit for Approval` - *This button is dynamic based on whether or not the article has been approved*
 
 ## Further Information
 
