@@ -1,5 +1,5 @@
 export const SITE = {
-	title: 'Documentation',
+	title: 'Viewpoint Docs',
 	description: 'Documentation and User Guides for Viewpoint. The content matchmaker.',
 	defaultLanguage: 'en-us',
 } as const;
@@ -21,7 +21,7 @@ export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
 export const GITHUB_EDIT_URL = `https://github.com/tom-hirst/viewpoint-docs/tree/main`;
 
-export const COMMUNITY_INVITE_URL = `https://astro.build/chat`;
+export const WEBSITE_URL = `https://www.viewpointcomms.com`;
 
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {

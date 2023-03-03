@@ -21,7 +21,7 @@ const data = filenames.map((filename) => {
     return {
       objectID: frontmatter.title.toLowerCase().replace(/\s/g, '_'),
       title: frontmatter.title,
-      url: './src/content/docs/en/' + filename,
+      url: 'https://docs.viewpointcomms.com/en/' + filename,
       content: removeMd(content).replace(/\n/g, ""),
     }
   } catch (e) {

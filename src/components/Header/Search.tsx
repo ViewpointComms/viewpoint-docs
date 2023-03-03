@@ -77,6 +77,7 @@ export default function Search() {
 						appId={ALGOLIA.appId}
 						apiKey={ALGOLIA.apiKey}
 						transformItems={(items) => {
+							console.log(items)
 							return items.map((item) => {
 								// We transform the absolute URL into a relative URL to
 								// work better on localhost, preview URLS.
