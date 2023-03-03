@@ -37,17 +37,20 @@ export type Sidebar = Record<
 export const SIDEBAR: Sidebar = {
 	en: {
 		'Introduction': [
-			{ text: 'Introduction', link: 'en/introduction/introduction' },
-			{ text: 'What is Viewpoint', link: 'en/introduction/what-is-viewpoint' },
-			{ text: 'How does it work', link: 'en/introduction/how-does-it-work' },
+			{ text: 'Introduction', link: 'en/introduction' },
+			{ text: 'What is Viewpoint', link: 'en/introduction-what' },
+			{ text: 'How does it work', link: 'en/introduction-how' },
 		],
 		'Content': [
-			{ text: 'Create', link: 'en/content/create' },
-			{ text: 'Curate', link: 'en/content/curate' },
-			{ text: 'Aggregate', link: 'en/content/aggregate' },
-			{ text: 'Tagging', link: 'en/content/tagging' },
-			{ text: 'Scheduling', link: 'en/content/scheduling' },
-			{ text: 'Approving', link: 'en/content/approval' }
+			{ text: 'Create', link: 'en/content-create' },
+			{ text: 'Curate', link: 'en/content-curate' },
+			{ text: 'Aggregate', link: 'en/content-aggregate' },
+			{ text: 'Tagging', link: 'en/content-tagging' },
+			{ text: 'Scheduling', link: 'en/content-scheduling' },
+			{ text: 'Approving', link: 'en/content-approval' }
+		],
+		'Leads': [
+			{ text: 'Create', link: 'en/leads-create' }
 		],
 	},
 };
