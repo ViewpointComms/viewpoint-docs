@@ -1,6 +1,6 @@
 ---
-title: "Introduction"
-description: "Docs intro"
+title: "Welcome"
+description: "Welcome to Viewpoint Documentation"
 ---
 
 **Welcome to Viewpoint!**
