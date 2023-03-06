@@ -7,7 +7,7 @@ description: "Information about how Viewpoint works"
 
 **Add Content**
 
-Just add your content to Viewpoint by using the [Create](create) or [Curate](curate) function. *Make sure to tag your content with any relevant tags.*
+Simply add your content to Viewpoint by using the [Create](create) or [Curate](curate) function. *Make sure to tag your content with any relevant tags.*
 
 **Match-make**
 

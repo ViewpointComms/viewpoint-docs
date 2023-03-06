@@ -25,9 +25,9 @@ export const WEBSITE_URL = `https://www.viewpointcomms.com`;
 
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {
-	indexName: 'viewpointdocs',
-	appId: 'DDZS8F74DY',
-	apiKey: '5692f681f6b6fa53988ed42b041f9c7a'
+	indexName: 'viewpointcomms',
+	appId: 'R3QYTVAONG',
+	apiKey: 'a3cc3d255aa6f67baa8175f9bd27be3f'
 };
 
 export type Sidebar = Record<
@@ -41,7 +41,7 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'What is Viewpoint', link: 'en/introduction/what-is-it' },
 			{ text: 'How does it work', link: 'en/introduction/how-it-works' },
 		],
-		'Content': [
+		'Adding Content': [
 			{ text: 'Create', link: 'en/content/create' },
 			{ text: 'Curate', link: 'en/content/curate' },
 			{ text: 'Aggregate', link: 'en/content/aggregate' },
