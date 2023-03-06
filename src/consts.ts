@@ -37,21 +37,21 @@ export type Sidebar = Record<
 export const SIDEBAR: Sidebar = {
 	en: {
 		'Introduction': [
-			{ text: 'Introduction', link: 'en/introduction-welcome' },
-			{ text: 'What is Viewpoint', link: 'en/introduction-what' },
-			{ text: 'How does it work', link: 'en/introduction-how' },
+			{ text: 'Introduction', link: 'en/introduction/welcome' },
+			{ text: 'What is Viewpoint', link: 'en/introduction/what-is-it' },
+			{ text: 'How does it work', link: 'en/introduction/how-it-works' },
 		],
 		'Content': [
-			{ text: 'Create', link: 'en/content-create' },
-			{ text: 'Curate', link: 'en/content-curate' },
-			{ text: 'Aggregate', link: 'en/content-aggregate' },
-			{ text: 'Tagging', link: 'en/content-tagging' },
-			{ text: 'Scheduling', link: 'en/content-scheduling' },
-			{ text: 'Approving', link: 'en/content-approval' }
+			{ text: 'Create', link: 'en/content/create' },
+			{ text: 'Curate', link: 'en/content/curate' },
+			{ text: 'Aggregate', link: 'en/content/aggregate' },
+			{ text: 'Tagging', link: 'en/content/tagging' },
+			{ text: 'Scheduling', link: 'en/content/scheduling' },
+			{ text: 'Approving', link: 'en/content/approval' }
 		],
 		'Your Settings': [
-			{ text: 'Preference Center', link: 'en/settings-preference' },
-			{ text: 'Your Profile', link: 'en/settings-profile' }
+			{ text: 'Preference Center', link: 'en/settings/preferences' },
+			{ text: 'Your Profile', link: 'en/settings/profile' }
 		],
 		'Leads': [
 			{ text: 'Create', link: 'en/leads-create' }
