@@ -31,11 +31,12 @@ const lang = getLanguageFromURL(currentPage);
 		<div style="flex-grow: 1;"></div>
 		{KNOWN_LANGUAGE_CODES.length > 1 && <LanguageSelect lang={lang} client:idle />}
 		<div style="margin: 2rem 0; text-align: center;">
-			<ThemeToggleButton client:visible />
+			
 		</div>
 		<div class="search-item">
-			 <!-- 	<Search client:idle /> -->
+			<!-- 	<Search client:idle /> -->
 		</div>
+		<ThemeToggleButton client:visible />
 	</nav>
 </header>
 
