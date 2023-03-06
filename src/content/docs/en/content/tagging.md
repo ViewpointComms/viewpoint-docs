@@ -3,9 +3,7 @@ title: "Content Tagging"
 description: "Tagging content in Viewpoint is a powerful feature that ensures the right people see the right content"
 ---
 
-When using [Create](create) or [Curate](curate) to add content, you will need to use the multi-select drop down fields to tg your content accoridingly, this will define the categories that your contwent will be displayed under and when users have those tags selected in their preferences they will also be sent notifications that the content is available.
-
-Content tags are configuration specific and can currently only be amended by Viewpoint Support, please reach out to support if you need to make changes to any of your tags
+When using [Create](create) or [Curate](curate) to add content, you will need to use the multi-select drop down fields to tag your content accordingly, this will define the categories that your content will be displayed under and when users have those tags selected in their preferences they will also be sent notifications that the content is available.
 
 ## Content Type
 
@@ -26,11 +24,14 @@ This is generally representative of subject matter. Some clients will use this f
 
 Example:
 ```
-- Blog
-- Event
-- News
-- Podcast
-- Video
+- AI
+- Automation
+- Big Data
+- Cloud
+- Cyber Security
+- ITSM
+- Monitoring
+- Security
 ```
 
 ## Vendor (optional)
@@ -40,3 +41,8 @@ Some Clients, particularly distributors, may have a multi Vendor platform, menin
 ## Region (optional)
 
 Some Clients, may have a multi Region platform, mening they can publish region specific content. If this is the case, you will have additional tag field called Region where you can specify a particular Region that the content relates to.
+
+## Further Information
+
+- Content tags are configuration specific, your options may differ from any screenshots in the Viewpoint Docs
+- Tags can currently only be amended by Viewpoint Support, please reach out to support if you need to make changes to any of your tags

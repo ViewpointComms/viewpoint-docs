@@ -9,7 +9,7 @@ Viewpoint will allow you to schedule content to appear during a specific window 
 
 Using the 'Available from date' option will allow you to publish content now, but it will remain hidden until the date and time you specify.
 
-1. [Create](content-create) or [Curate](content-curate) your content as you would normally without clicking `Submit for Approval` / `Publish Button`
+1. [Create](create) or [Curate](curate) your content as you would normally without clicking `Submit for Approval` / `Publish Button`
 2. Click the clock icon to the right of the `Submit for Approval` / `Publish Button`
 
 ![Schedule Popup](/assets/content/schedule-modal.png)

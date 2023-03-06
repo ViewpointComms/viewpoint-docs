@@ -1,6 +1,6 @@
 ---
-title: "Create Leads"
-description: "How to create new leads and share them with your partners"
+title: "Preference Center"
+description: "How to set and update your preferences"
 ---
 
 The `Aggregate` function allows you aggregate content from external sources automatically such as RSS Feeds & YouTube channels
@@ -16,10 +16,7 @@ the addition of YouTube sources currently has to be completed by the Viewpoint s
 
 ## Further Information
 
-- The recommended image size for images for content in Viewpoint is 200px x 400px
-- Some fields displayed in your instance of Viewpoint may differ from the screenshots above as some fields are configuration specific
-- Some fields such as `Approved` are restricted to certain user types
-- When approved, content will be published immediately, and notifications will be sent as per users preferences
+- XXXXXXXXXXX
 
 
 

@@ -7,11 +7,12 @@ description: "Information about how Viewpoint works"
 
 **Add Content**
 
-Just add your content to Viewpoint by 
+Just add your content to Viewpoint by using the [Create](create) or [Curate](curate) function. *Make sure to tag your content with any relevant tags.*
 
 **Match-make**
 
+Viewpoint matches your content against the right subscribers, based on the content tags you select and the content tags chosen in each users preferences.
 
 **Distribute**
 
-
+Viewpoint distributes your content using the days/times and methods selected in each users preferences, meaning the content lands in the right place at the right time.
