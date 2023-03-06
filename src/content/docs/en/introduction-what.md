@@ -3,6 +3,6 @@ title: "What is Viewpoint?"
 description: "Information about what Viewpoint is"
 ---
 
-**This is what Viewpoint Does!**
+**What is Viewpoint**
 
-Text Here
+Viewpoint 
