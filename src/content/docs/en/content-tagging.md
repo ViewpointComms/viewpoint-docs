@@ -1,5 +1,5 @@
 ---
-title: "Tagging"
+title: "Content Tagging"
 description: "Tagging content in Viewpoint is a powerful feature that ensures the right people see the right content"
 ---
 

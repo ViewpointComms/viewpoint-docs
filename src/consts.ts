@@ -49,6 +49,10 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'Scheduling', link: 'en/content-scheduling' },
 			{ text: 'Approving', link: 'en/content-approval' }
 		],
+		'Your Settings': [
+			{ text: 'Preference Center', link: 'en/settings-preference' },
+			{ text: 'Your Profile', link: 'en/settings-profile' }
+		],
 		'Leads': [
 			{ text: 'Create', link: 'en/leads-create' }
 		],

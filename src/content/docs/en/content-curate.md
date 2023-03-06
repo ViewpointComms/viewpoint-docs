@@ -1,5 +1,5 @@
 ---
-title: "Curate"
+title: "Curate Content"
 description: "How to curate content"
 ---
 

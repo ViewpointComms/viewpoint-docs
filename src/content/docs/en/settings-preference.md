@@ -1,6 +1,6 @@
 ---
-title: "Aggregate Content"
-description: "How to aggregate content from external sources"
+title: "Create Leads"
+description: "How to create new leads and share them with your partners"
 ---
 
 The `Aggregate` function allows you aggregate content from external sources automatically such as RSS Feeds & YouTube channels

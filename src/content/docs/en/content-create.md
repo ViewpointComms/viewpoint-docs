@@ -1,5 +1,5 @@
 ---
-title: "Create"
+title: "Create Content"
 description: "How to create content"
 ---
 

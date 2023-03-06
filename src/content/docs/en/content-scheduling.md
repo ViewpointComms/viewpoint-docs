@@ -1,5 +1,5 @@
 ---
-title: "Scheduling"
+title: "Content Scheduling"
 description: "How to schedule content in Viewpoint"
 ---
 

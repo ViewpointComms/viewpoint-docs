@@ -1,5 +1,5 @@
 ---
-title: "Approving"
+title: "Approving Content"
 description: "How to approve content"
 ---
 
