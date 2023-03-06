@@ -20,7 +20,7 @@ const data = filenames.map((filename) => {
     const { data: frontmatter, content } = matter(markdownWithMeta)
     return {
       objectID: frontmatter.title.toLowerCase().replace(/\s/g, '_'),
-      title: frontmatter.title,
+      lvl1: frontmatter.title,
       url: 'https://docs.viewpointcomms.com/en/' + filename,
       content: removeMd(content).replace(/\n/g, ""),
     }
