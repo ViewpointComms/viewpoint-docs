@@ -50,17 +50,18 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'Approving', link: 'en/content/approval' }
 		],
 		'Subscribers': [
-			{ text: 'Homepage', link: 'en/leads-create' },
-			{ text: 'Preference Center', link: 'en/your-settings/preferences' },
-			{ text: 'Your Profile', link: 'en/your-settings/profile' }
+			{ text: 'Homepage', link: 'en/subscribers/homepage' },
+			{ text: 'Preference Center', link: 'en/subscribers/preferences' },
+			{ text: 'Your Profile', link: 'en/subscribers/profile' }
 		],
-		'Leads': [
-			{ text: 'Create', link: 'en/leads-create' },
-			{ text: 'Claiming', link: 'en/leads-claim' }
-		],
+	//	'Leads': [
+	//		{ text: 'Create', link: 'en/leads-create' },
+	//		{ text: 'Claiming', link: 'en/leads-claim' }
+	//	],
 		'System Settings': [
-			{ text: 'Adding Users', link: 'system-settings/add-user' },
-			{ text: 'User Permissions', link: 'system-settings/permissions' },
+			{ text: 'Adding Users', link: 'en/system-settings/add-user' },
+			{ text: 'User Permissions', link: 'en/system-settings/permissions' },
+			{ text: 'Domain Restrictions', link: 'en/system-settings/domains' },
 		],
 	},
 };
