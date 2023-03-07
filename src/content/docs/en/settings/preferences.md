@@ -28,7 +28,9 @@ There are a number of options for email:
 
 Push notifications allow notifcations to be sent directly to both mobile and desktop devices. These notificatons are sent immediately when publishing content
 
-*Notifications must be enabled on devices individually*
+> note Notifications must be enabled on devices individually
+
+
 
 ### Text Messaging (SMS)
 
