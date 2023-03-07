@@ -6,7 +6,7 @@ export const SITE = {
 
 export const OPEN_GRAPH = {
 	image: {
-		src: 'https://github.com/withastro/astro/blob/main/assets/content/OGImg.png?raw=true',
+		src: 'https://github.com/viewpoint/viewpoint-docs/blob/main/assets/OGImg.png?raw=true',
 		alt:
 			'Viewpoint - Documenation, ' +
 			'Viewpoint. The content matchmaker',
@@ -19,7 +19,7 @@ export const KNOWN_LANGUAGES = {
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
-export const GITHUB_EDIT_URL = `https://github.com/tom-hirst/viewpoint-docs/tree/main`;
+export const GITHUB_EDIT_URL = `https://github.com/viewpointcomms/viewpoint-docs/tree/main`;
 
 export const WEBSITE_URL = `https://www.viewpointcomms.com`;
 
