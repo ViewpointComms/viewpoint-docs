@@ -1,7 +1,7 @@
 ---
 
 export interface Props {
-	type?: 'note' | 'tip' | 'caution' | 'danger' | 'example';
+	type?: 'note' | 'tip' | 'caution' | 'danger' ;
 	title?: string;
 }
 
@@ -26,10 +26,6 @@ const icons: Record<NonNullable<Props['type']>, { viewBox: string; d: string }> 
 		viewBox: '0 1 14 17',
 		d: 'M5 .3c.9 2.2.5 3.4-.5 4.3C3.5 5.6 2 6.5 1 8c-1.5 2-1.7 6.5 3.5 7.7-2.2-1.2-2.6-4.5-.3-6.6-.6 2 .6 3.3 2 2.8 1.4-.4 2.3.6 2.2 1.7 0 .8-.3 1.4-1 1.8A5.6 5.6 0 0 0 12 10c0-2.9-2.5-3.3-1.3-5.7-1.5.2-2 1.2-1.8 2.8 0 1-1 1.8-2 1.3-.6-.4-.6-1.2 0-1.8C8.2 5.3 8.7 2.5 5 .3z',
 	},
-	example: {
-		viewBox: '0 0 18 18',
-		d: 'M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z',
-	}
 };
 const { viewBox, d } = icons[type];
 ---
@@ -50,7 +46,7 @@ const { viewBox, d } = icons[type];
 
 <style>
 	aside {
-		--aside-color-base: var(--color-base-purple);
+		--aside-color-base: var(--color-base-blue);
 		--aside-color-lightness: 54%;
 		--aside-accent-color: hsl(var(--aside-color-base), var(--aside-color-lightness));
 		--aside-text-lightness: 20%;
@@ -109,7 +105,7 @@ const { viewBox, d } = icons[type];
 
 	.tip {
 		--aside-color-lightness: 42%;
-		--aside-color-base: var(--color-base-teal);
+		--aside-color-base: var(--color-base-gray);
 	}
 
 	.caution {
@@ -121,8 +117,5 @@ const { viewBox, d } = icons[type];
 		--aside-color-lightness: 54%;
 		--aside-color-base: var(--color-base-red);
 	}
-	. {
-		--aside-color-lightness: 54%;
-		--aside-color-base: var(--color-base-red);
-	}
+
 </style>

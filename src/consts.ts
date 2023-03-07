@@ -49,12 +49,18 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'Scheduling', link: 'en/content/scheduling' },
 			{ text: 'Approving', link: 'en/content/approval' }
 		],
-		'Your Settings': [
-			{ text: 'Preference Center', link: 'en/settings/preferences' },
-			{ text: 'Your Profile', link: 'en/settings/profile' }
+		'Subscribers': [
+			{ text: 'Homepage', link: 'en/leads-create' },
+			{ text: 'Preference Center', link: 'en/your-settings/preferences' },
+			{ text: 'Your Profile', link: 'en/your-settings/profile' }
 		],
 		'Leads': [
-			{ text: 'Create', link: 'en/leads-create' }
+			{ text: 'Create', link: 'en/leads-create' },
+			{ text: 'Claiming', link: 'en/leads-claim' }
+		],
+		'System Settings': [
+			{ text: 'Adding Users', link: 'system-settings/add-user' },
+			{ text: 'User Permissions', link: 'system-settings/permissions' },
 		],
 	},
 };
