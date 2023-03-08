@@ -1,7 +1,6 @@
-<svg class="logo"
-     viewBox="0 0 54.6 42.4"
-     width={size}
-	   height={size}>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 54.6 42.4">
   <defs>
     <style>
       .b {
